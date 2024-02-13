@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  background: rgba(225, 225, 225, 0.3);
+  display: flex;
+  width: 900px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  margin: 0 auto;
+  box-shadow: 0px 15px 17px 0.17px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #86995b;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header img {
+  height: 50px;
+}
+
+.left {
+  width: 316px;
+}
+
+.right {
+  padding: 50px 0px;
+  width: 290px;
+}
+
+button {
+  outline: none !important;
+  background: transparent;
+}
+
+/* Style form elements */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style the login button */
+.form-btn {
+  text-align: center;
+}
+
+.btn-primary {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #f4a261;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #4f4e4e;
+  border: none;
+}
+
+/* Style the registration link */
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
